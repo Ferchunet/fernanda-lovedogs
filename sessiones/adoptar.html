@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+ <link rel="stylesheet" href="/estilo/style.css">
+
+<title>Document</title>
+
+
+</head>
+<body>
+<div id="grid-conteiner-fluid">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+     <div class="navbar-brand">   <img src="/imagenes/logo.jpg" alt="logo" >  </div>
+     <h1>lovedogs</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link home" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link contacto" href="/sessiones/contacto.html">contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/sessiones/castrar.html">castrar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/sessiones/donar.html">donar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="header1">
+    <header>
+       
+    </header>
+   </div>
+
+      <main>
+        <div class="contenedorform">
+          <h2>ADOPTAR CON RESPONSABILIDAD</h2> 
+        </div>
+             <h3>PARA ADOPTAR TIENES QUE LLENAR EL FORMULARIO </h3>
+          <form action="envio.php" method="post" >
+         <fieldset>
+         <legend>info de contacto</legend>
+         <label for="nombre">nombre</label>
+         <br>
+         <input type="text" name="nombre" id="nombre" placeholder="maria laura"> 
+         <label for="nombre">nombre</label>
+          <br>
+          <input type="text" name="gmail" id="gmail" placeholder="ferr@gmail.com">
+          <label for="gmail">gmail</label>
+         <br>
+         <input type="" name="numero" id="numero" placeholder="123399894894">
+         <label for="numero">numero</label>
+         <br> 
+         <br>
+         <input type="datetime-local" name="fecha nacimiento" id="fechadenacimiento" placeholder="fecha de nacimiento">
+         <label for="fecha de naciento">fecha de nacimiento</label>
+          <p>que desea adoptar</p>
+          <input type="checkbox" name="gatos" id="gatos" >
+          <label for="gatos">gatos</label>
+          <input type="checkbox" name="perros" id="perros">
+          <label for="perros">perros</label>
+         
+          <p> tiene protecciones en su casa </p>
+          <input type="checkbox" name="si" id="si">
+          <label for="si">si</label> <input type="checkbox" name="no" id="no"> <label for="no">no</label> <br>
+         <p>habitantes en su casa</p> 
+         <input type="number" name="cuantos son" id="cuantos">
+         <label for="cuantos">cuantos son</label> <br> <br>
+         <br>
+         <input type="file" name=" enviar foto del adoptante" id="foto">  
+         <label for="foto">foto del adoptante</label>
+         
+         
+         <br>
+         <input type="file" name=" enviar foto del adoptante" id="foto">  
+         <label for="foto">foto del animal </label> <br>
+         
+         <input type="text" name="se compromete" id="castrar ">
+         <label for="castrar">se compromete a castrar</label>
+         <br>
+         <input type="submit" value="enviar formulario">
+         
+         </fieldset>
+         
+         
+         </div>
+      </main>
+
+      <footer>
+        <section class="piedelapagina">
+          
+          <div class="pie1">
+          <h4>contacta con nosotros</h4>
+          <h4>terminos y condiciones</h4>
+          <h4> politica de privacidad</h4>
+         </div>
+            
+         <div class="pie2">
+          <h3>desarrollado por </h3> <h3>fernandacoronel</h3>
+          <h3>fernandacoronel@gmail.com</h3>
+          </div>
+    
+          <div class="pie3">
+              <img src="/imagenes/facebookl.png" alt="facebook">
+              <img src="/imagenes/whasap.png" alt="whatsapp">
+              <img src="/imagenes/instagram.jpg " alt="instagram"> 
+            </div>  
+      
+         
+        </section>
+        </footer>
+    
+    
+
+  
+  </div>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
